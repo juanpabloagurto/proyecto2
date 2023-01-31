@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         
 
-        if (!input1 || !input2) {
+        if (!input1 || !input2) {    
             alert("Por favor, rellene todos los campos");
             return;
         }
