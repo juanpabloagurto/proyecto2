@@ -35,3 +35,11 @@ form {
     margin-top: 40px;
   }
   
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 10px;
+  }
+  
