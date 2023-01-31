@@ -8,6 +8,13 @@ document.addEventListener("DOMContentLoaded", function() {
         let input2 = document.getElementById("input2").value;
         let tabla1 = document.getElementById("tabla1");
 
+        
+
+        if (!input1 || !input2) {
+            alert("Por favor, rellene todos los campos");
+            return;
+        }
+
         // crear una nueva fila en la tabla
         let nuevaFila = tabla1.insertRow(-1);
 
@@ -53,4 +60,5 @@ document.addEventListener("DOMContentLoaded", function() {
             localStorage.setItem("descripcionEditada", descripcionEditar);
         });
     }
+    
 })
